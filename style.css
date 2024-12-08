@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tahoma" serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 30px;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#wrapper {
+    text-align: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 3px 0 white;
+}
+
+.heading h1 {
+    text-align: center;
+    color: white;
+}
+
+.heading p {
+    margin: 5px 0 20px 0;
+    color: white;
+}
+
+/* Form */
+.content form {
+    display: table;
+    margin: 0 auto;
+}
+
+.content label {
+    display: table-row;
+    text-align: left;
+    color: floralwhite;
+    font-weight: bold;
+}
+
+.content input {
+    display: table-cell;
+    width: 100%;
+    margin: 2px 0 30px 0;
+    height: 2em;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 5px;
+}
+
+.content input:hover {
+    padding: 10px;
+}
+
+.content input::placeholder {
+    padding: 3px;
+}
+
+.content input[type="submit"] {
+    border: 1px solid white;
+    font-size: 18px;
+    height: 2em;
+    border-radius: 5px;
+    background: transparent;
+    padding: auto auto;
+    color: white;
+}
+
+.content input[type="submit"]:hover {
+    background: white;
+    box-shadow: 0 0 3px 0 white;
+    font-weight: bold;
+    padding: 0;
+    color: black;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 20px 0;
+    color: white;
+}
+
+.footer input {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    color: black;
+    background: white;
+    padding: 5px;
+    margin-top: -5px;
+    font-weight: bold;
+}
+
+.foot span {
+    color: white;
+}

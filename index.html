@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="wrapper">
+            <!-- Heading -->
+            <div class="heading">
+                <h1>Login</h1>
+                <p><i>Input your details correctly</i></p>
+            </div>
+            
+            <!-- Form -->
+            <div class="content">
+                <form action="#">
+                <label for="email">Email Address <input type="email" id="email" placeholder="enter your email address" required></label>
+                <label for="password">Password <input type="password" id="password" pattern="[a-z0-9]{6,}" placeholder="enter your password" required></label>
+                <input type="submit" value="Login">
+                </form>
+            </div>
+            
+            <!-- Footer -->
+            <div class="footer">
+                <label><input type="checkbox" id="remember-me" value="remember-me">Remember me</label>
+                <a href="#">Forgot Password?</a><br />
+            </div>
+            <div class="foot">
+            <span>&copy; <i>2024</i></span>
+            </div>
+        </div>
+    </body>
+</html>
